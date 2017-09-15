@@ -17,6 +17,12 @@ public class Customer {
     private String firstName;
     private String lastName;
 
+    @TextIndexed
+    private String content;
+
+    @TextIndexed
+    private String tags;
+
     private Long age;
 
     private Address address;

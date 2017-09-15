@@ -54,6 +54,8 @@ public interface CustomerRepository extends CrudRepository<Customer,String> {
 
     Page<Customer> findAllBy(TextCriteria criteria, Pageable pageable);
 
+    List<Customer> findAllBy(TextCriteria criteria);
+
     List<Customer> findAllBy(Criteria criteria);
 
     Page<Customer> findAllBy(Criteria criteria,Pageable pageable);
