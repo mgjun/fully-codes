@@ -1,23 +1,17 @@
 package com.spring.mongo;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
-import com.spring.mongo.model.Address;
-import com.spring.mongo.model.Customer;
-import com.spring.mongo.repository.CustomerRepository;
-import org.junit.Before;
+import com.spring.mongo.customer.Address;
+import com.spring.mongo.customer.Customer;
+import com.spring.mongo.customer.CustomerRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.geo.Point;
 import org.springframework.data.mongodb.core.MongoOperations;
-import org.springframework.data.mongodb.core.query.BasicQuery;
 import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.TextCriteria;
 import org.springframework.test.context.junit4.SpringRunner;
 

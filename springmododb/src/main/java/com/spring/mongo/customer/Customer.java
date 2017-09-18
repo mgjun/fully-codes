@@ -1,5 +1,6 @@
-package com.spring.mongo.model;
+package com.spring.mongo.customer;
 
+import com.spring.mongo.customer.Address;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

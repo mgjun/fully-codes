@@ -1,4 +1,4 @@
-package com.spring.mongo.model;
+package com.spring.mongo.customer;
 
 
 import lombok.Getter;
